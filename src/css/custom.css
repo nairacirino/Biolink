@@ -49,7 +49,6 @@ body {
 }
 
 main {
-    margin: 20px 0;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -57,7 +56,6 @@ main {
     background: rgba(255, 255, 255, 0.90);
     -webkit-box-shadow: 15px 15px 20px 0 #0384c0;
     box-shadow: 15px 15px 20px 0 #0384c0;
-    max-height: 90vh;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* Código Front (https://www.codigofront.com.br/)
+Copyright 2021-2022 Naira Cirino */
+
+:root {
+    /* cores e gradientes */
+    --azul: #05e0e9;
+    --branco: #fff;
+    --cinza: #545454;
+    --cinza-claro: #545454;
+    --rosa: #ff2768;
+    --roxo: #4e1a3d;
+    --verde: #cfeed1;
+
+    /* tipografia */
+    --corpo-de-texto: 'Montserrat', sans-serif;
+    color: var(--azul);
+
+    /* comportamento de tela */
+    scroll-behavior: smooth;
+}
+
+/* apagando estilos padrão do navegador */
+
+html, body, ul, li, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* estilos gerais */
+
+body {
+    background-color: var(--azul);
+    background-image: url(../img/fundo2.jpeg);
+    background-size: cover;
+    background-position: left;
+    color: var(--azul);
+    backdrop-filter: blur(15px);
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.90);
+    -webkit-box-shadow: 15px 15px 20px 0 #0384c0;
+    box-shadow: 15px 15px 20px 0 #0384c0;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        border-left: 2px solid #03b7bd;
+        border-right: 2px solid #0384c0;
+    }
+
+}
+
+.btn {
+    border: 2px solid var(--azul);
+    background-color: var(--azul);
+    -webkit-box-shadow: 1px 1px 2px 0 var(--cinza-claro);
+    box-shadow: 2px 2px 4px 0 var(--cinza-claro);
+    border-radius: 0 !important;
+}
+
+.btn-outline-primary {
+    color: var(--branco);
+    border-color: var(--azul);
+}
+
+.btn-outline-primary:hover {
+    color: var(--azul);
+    background-color: var(--branco);
+    border-color: var(--azul);
+    -webkit-box-shadow: inset 1px 1px 2px 0 #8d8d8d;
+    box-shadow: inset 2px 2px 4px 0 #8d8d8d;
+}
+
+.btn-check:checked+.btn-outline-primary, .btn-check:active+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: var(--azul);
+    background-color: var(--branco);
+    border-color: var(--azul);
+    -webkit-box-shadow: inset 1px 1px 2px 0 #8d8d8d;
+    box-shadow: inset 2px 2px 4px 0 #8d8d8d;
+}
+
+.btn-outline-primary:disabled, .btn-outline-primary.disabled {
+    color: var(--azul);
+    background-color: transparent;
+}
+
+.min-vh-90 {
+    min-height: 92vh !important;
+}
+
+@media (min-width: 768px) {
+    .min-vh-90 {
+        min-height: 100vh !important;
+    }
+}
+
+i {
+    font-size: clamp(1.8rem, calc(.8rem + 1vw), 2.5rem);
+    margin: .5rem calc(.8rem + 1vw);
+    color: var(--azul);
+}
+
+i:hover {
+    color: var(--cinza);
+}
+
+footer {
+    display: block;
+    color: var(--cinza);
+    font-size: smaller;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+
+    footer {
+        background-color: var(--azul);
+        color: var(--branco) !important;
+    }
+}

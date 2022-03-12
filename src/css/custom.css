@@ -111,6 +111,10 @@ main {
     }
 }
 
+.social-nav {
+    margin-bottom: 2.5rem;
+}
+
 i {
     font-size: clamp(1.6rem, calc(.6rem + .8vw), 2rem);
     margin: .5rem calc(.2rem + .5vw);
@@ -126,6 +130,8 @@ footer {
     color: var(--cinza);
     font-size: smaller;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 @media (max-width: 767px) {

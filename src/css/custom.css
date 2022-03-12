@@ -5,7 +5,7 @@ Copyright 2021-2022 Naira Cirino */
 
 :root {
     /* cores e gradientes */
-    --azul: #05e0e9;
+    --azul: #43afe0;
     --branco: #fff;
     --cinza: #545454;
     --cinza-claro: #545454;
@@ -112,7 +112,7 @@ main {
 }
 
 i {
-    font-size: clamp(1.8rem, calc(.8rem + 1vw), 2.5rem);
+    font-size: clamp(1.5rem, calc(.6rem + .8vw), 2rem);
     margin: .5rem calc(.8rem + 1vw);
     color: var(--azul);
 }

@@ -2,7 +2,7 @@
 
 # Biolink1
 
-<img src="https://img.shields.io/badge/STATUS-Developing-red" alt="badge"/>
+<img src="https://img.shields.io/badge/STATUS-Finished-blue" alt="badge"/>
 
 ## SUMARIO
 

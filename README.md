@@ -28,7 +28,7 @@ Foram usados no projeto:
 <li>Bootstrap 5</li>
 <li>Google Fonts</li>
 <li>Fontawesome</li>
-
+</ul>
 Projeto desenvolvido utilizando o VS Code e o Github desktop. 
 
 ## CONSIDERAÇÕES

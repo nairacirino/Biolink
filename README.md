@@ -1,5 +1,3 @@
-<a href="https://tenor.com/view/busy-cat-coko-mixflavor-work-gif-14850999"><img align="right" src="./busycat.gif" alt="screenshot do deploy" width="20%"/></a>
-
 # Biolink1
 
 <img src="https://img.shields.io/badge/STATUS-Finished-blue" alt="badge"/>
@@ -10,14 +8,15 @@
    * [Deploy](#DEPLOY)
    * [Linguagens e ferramentas utilizadas](#LINGUAGENS-E-FERRAMENTAS-UTILIZADAS)
    * [Considerações](#CONSIDERAÇÕES)
+   * [Licença, usos e restrições](#LICENÇA,-USOS-E-RESTRIÇÕES)
 
 ## DESCRIÇÃO DO PROJETO
 
-Projeto desenvolvido por diversão, para treinar conceitos de HTML e CSS replicando um layout semelhante.
+Projeto de página de links desenvolvido por diversão, para treinar conceitos de HTML e CSS replicando um layout semelhante.
 
 ## DEPLOY
 
-Deploy disponível <a href="https://nairacirino.github.io/Biolink1/">aqui</a>.
+Deploy disponível <a href="https://nairacirino.github.io/Biolink/">aqui</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 

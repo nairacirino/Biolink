@@ -1,4 +1,4 @@
-# Biolink1
+# Biolink
 
 <img src="https://img.shields.io/badge/STATUS-Complete-blue" alt="badge"/>
 
